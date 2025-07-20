@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Poppins, sans-serif;
+    }
+    body {
+      background-image: url(hacker.jpg);
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 3em;
+      position: relative;
+      animation: upDown 1s infinite ease-in-out;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Animation keyframes */
+    @keyframes upDown {
+      0% {
+        top: 0px;
+      }
+      50% {
+        top: -20px;
+      }
+      100% {
+        top: 0px;
+      }
+    }
+  </style>
+  <body style="background-color: #000">
+    <h1>Hacker</h1>
+    <script>
+      let i = 5;
+      while (i < 10) {
+        console.log(i);
+      }
+      i++;
+    </script>
+  </body>
+</html>
